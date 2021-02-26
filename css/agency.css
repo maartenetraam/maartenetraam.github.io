@@ -347,7 +347,24 @@
 	#message
 	{
 		height: 140px;
+	}
 
+	@-moz-document url-prefix() {
+	  @supports (animation: calc(0s)) {
+	      /* Firefox Quantum specific styles */
+		#message
+		{
+		height: 170px;
+		}
+	  }
+	}
+
+	@supports (-ms-ime-align: auto) {
+	  /* Edge specific styles */
+		#message
+		{
+		height: 170px;
+		}
 	}
 	
 	.contact > .container > .row > .col-lg-12 > h1
