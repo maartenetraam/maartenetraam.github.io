@@ -1,12 +1,3 @@
-$("#sendMessageButton").on("click", function() {
-    $.ajax({
-        url: "https://formspree.io/f/xknplgvv", 
-        method: "POST",
-        data: {message: "hello! this is a message from me blablabla"},
-        dataType: "json"
-    });
-});
-
 /*$(function() {
 
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
