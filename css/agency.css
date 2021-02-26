@@ -351,6 +351,7 @@
 
 	#troubleText
 	{
+		letter-spacing: initial!important;
 		display: block;
   		font-size: 45px!important;
   		margin-left: 0;
