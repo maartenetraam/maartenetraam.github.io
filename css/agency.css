@@ -343,19 +343,10 @@
 		padding-bottom: 3px;
 		padding-left: 10px;
 	}
-
-	/* Chrome 29+ */
-	@media screen and (-webkit-min-device-pixel-ratio:0)
-	  and (min-resolution:.001dpcm) {
-	    	#message
-		{
-		height: 170px;
-		}
-	}
 	
 	#message
 	{
-		height: 140px;
+		height: 170px;
 	}
 
 	
