@@ -343,6 +343,11 @@
 		padding-bottom: 3px;
 		padding-left: 10px;
 	}
+
+	.form-group 
+	{
+		margin-bottom: 16px!important;
+	}
 	
 	#message
 	{
@@ -362,6 +367,8 @@
 		margin-bottom: 20px;
 		margin-top: 5px;
 	}
+
+	
 	
 	//.contact > .container > .row > .col-lg-12 > h2
 	//{
