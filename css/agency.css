@@ -1108,13 +1108,18 @@
 	 }
 	
 	.contact
-    {
+    	{
 	   padding-left: 25px!important;
 	   width: 90%!important;
 	   margin-left: auto!important;
 	   margin-right: auto!important;
 	   margin-bottom: 130px!important;
-    }
+    	}
+	
+	.contact textarea
+	{
+	    Height = 120px;
+	}
 	
 	.portfolioFooter
 	{
