@@ -272,7 +272,7 @@
 	  #text
 	  {
 		 background-image: url("../img/text.png");
-	     background-repeat: no-repeat;
+	         background-repeat: no-repeat;
 		 background-size: contain;
 		 width: 770px;
 		 height: 500px;
@@ -344,7 +344,7 @@
 		padding-left: 10px;
 	}
 	
-	.contact textarea
+	#message
 	{
 		height: 140px;
 	}
