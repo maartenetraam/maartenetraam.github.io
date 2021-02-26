@@ -349,13 +349,27 @@
 		height: 170px;
 	}
 
-	
-	.contact > .container > .row > .col-lg-12 > h2
+	#troubleText
 	{
+		display: block;
+  		font-size: 2em;
+  		margin-top: 0.67em;
+  		margin-bottom: 0.67em;
+  		margin-left: 0;
+  		margin-right: 0;
+  		font-weight: bold;
+		
 		color: #e8dd4f;
 		margin-bottom: 20px;
 		margin-top: 5px;
 	}
+	
+	//.contact > .container > .row > .col-lg-12 > h2
+	//{
+	//	color: #e8dd4f;
+	//	margin-bottom: 20px;
+	//	margin-top: 5px;
+	//}
 	
 	::placeholder 
 	{ 
