@@ -1118,7 +1118,7 @@
 	
 	.contact textarea
 	{
-	    Height = 120px;
+	    Height = 120px;!important
 	}
 	
 	.portfolioFooter
