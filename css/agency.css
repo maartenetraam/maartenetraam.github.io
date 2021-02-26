@@ -1025,7 +1025,7 @@
 
 @media (max-width : 550px) 
 {
-	h1
+	#text > div > div:nth-child(1) > div > h1
 	{
 		Width: 50%;
 	}
