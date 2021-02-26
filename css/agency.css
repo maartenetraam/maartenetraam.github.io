@@ -343,11 +343,6 @@
 		padding-bottom: 3px;
 		padding-left: 10px;
 	}
-	
-	#message
-	{
-		height: 140px;
-	}
 
 	@-moz-document url-prefix() {
 	  @supports (animation: calc(0s)) {
@@ -366,6 +361,12 @@
 		height: 170px;
 		}
 	}
+	
+	#message
+	{
+		height: 140px;
+	}
+
 	
 	.contact > .container > .row > .col-lg-12 > h1
 	{
