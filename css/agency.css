@@ -344,6 +344,14 @@
 		padding-left: 10px;
 	}
 
+	@supports (-ms-ime-align: auto) {
+	  /* Edge specific styles */
+		#message
+		{
+		height: 170px;
+		}
+	}
+
 	@-moz-document url-prefix() {
 	  @supports (animation: calc(0s)) {
 	      /* Firefox Quantum specific styles */
@@ -354,13 +362,6 @@
 	  }
 	}
 
-	@supports (-ms-ime-align: auto) {
-	  /* Edge specific styles */
-		#message
-		{
-		height: 170px;
-		}
-	}
 	
 	#message
 	{
