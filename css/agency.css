@@ -344,13 +344,6 @@
 		padding-left: 10px;
 	}
 
-    @media screen and (-webkit-min-device-pixel-ratio:0) {
-	/* CSS Statements that only apply on webkit-based browsers (Chrome, Safari, etc.) */
-	#message
-	{
-		height: 170px;
-	}
-    }
 	
 	#message
 	{
